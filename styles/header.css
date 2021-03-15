@@ -1,0 +1,81 @@
+@media (max-width: 500px) {
+    header {
+        height: 300px;
+        background: #000;
+        border-radius: 20px;
+        padding: 16px;
+        color: white;
+    }
+    .avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        box-shadow: 0 10px 10px 1px rgba(255, 255, 255, 0.231);
+    }
+    .followers {
+        width: 176px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+
+    .follow_info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .follow {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foll-btn {
+        background: #5458F7;
+        width: 134px;
+        height: 24px;
+        border-radius: 40px;
+        margin-right: 8px;
+    }
+
+    .foll-subscibe > img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .foll-subscibe {
+        background: #333333;
+        border-radius: 40px;
+        width: 50px;
+        height: 24px;
+    }
+    .followers_action{
+        display: flex;
+        align-items: center;
+    }
+
+    .numeration_title{
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+
+    .p_info {
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin-bottom: 8px;
+    }
+
+    .p2_info {
+        color: #FFFFFF;
+        margin-bottom: 8px;
+    }
+
+    .p3_info {
+        color: #5458F7;
+    }
+
+    .a1 {
+        color: #5458F7;
+    }
+}

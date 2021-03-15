@@ -1,0 +1,16 @@
+@import "./header.css";
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, h2 , h3, p{
+    margin: 0;
+}
+
+button{
+    background: none;
+    color: inherit;
+    border: none;
+}   
